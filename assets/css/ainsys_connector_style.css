@@ -1,0 +1,322 @@
+/*========= Settings panel ===========*/
+
+.ainsys_status_panel {
+    background-color: #fff;
+    max-width: 620px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+
+}
+
+.ainsys_status_panel  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.ainsys_status_panel__content {
+    padding: .5rem 1rem;
+}
+
+.ainsys-logo {
+    margin-bottom: 2rem;
+    opacity: 0;
+    transition: .5s all linear;
+}
+
+.ainsys_settings_wrap {
+    padding: 1rem;
+}
+
+.ainsys_settings_wrap .nav-tab:focus{
+    box-shadow: none;
+}
+
+.ainsys_settings_wrap .nav-tab.nav-tab-active{
+    background-color: #fff;
+}
+
+.ainsys_settings_wrap .tab-target{
+    display: none;
+    position: relative;
+}
+
+.ainsys_settings_wrap .tab-target.tab-target-active{
+    display: flex;
+}
+
+.ainsys_settings_wrap #setting_section_emails input[type="text"]{
+    min-width: 270px;
+}
+
+.form-table .ainsys_settings_subtitle th{
+    font-size: 16px;
+    color: #2873AF;
+}
+
+@media only screen and (max-width: 791px){
+    .ainsys_settings_wrap .tab-target.tab-target-active{
+        display: block;
+    }
+}
+
+#setting_section_log .log_block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+#setting_section_log .controls{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#setting_section_log .form-table th{
+    padding: 10px;
+    font-size: small;
+}
+#setting_section_log .form-table tr:nth-child(2n){
+    background-color: white;
+}
+#setting_section_log .form-table thead{
+    background-color: lightgrey;
+}
+#setting_section_log .request_data_contaner{
+    height: 39px;
+    overflow: hidden;
+}
+
+#setting_section_log .request_data_contaner.expand_tab{
+    height: auto;
+    overflow: hidden;
+}
+#setting_section_log .expand_data_contaner{
+    position: relative;
+    float: right;
+    width: 70px;
+    text-align: center;
+    top: 5px;
+    margin-right: 0;
+    color: #575757;
+    border-color: #575757;
+    font-size: 12px;
+}
+#setting_section_log .gray_header{
+    color: grey;
+}
+
+#setting_section_log .form-table{
+    border: solid 2px #D3D3D3;
+}
+#setting_section_log .controls a{
+    min-width: 120px;
+    text-align: center;
+}
+
+#setting_entities_section .empty_tab,
+#setting_section_log .empty_tab{
+    width: 100%;
+    text-align: center;
+}
+
+.ainsys_settings_wrap #setting_entities_section{
+    flex-direction: column;
+}
+
+.ainsys_settings_wrap #setting_entities_section .entitis_table{
+    display: flex;
+    flex-direction: column;
+}
+.entities_block .properties_field i{
+    color: grey;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.active{
+    background: #67A1D0;
+    color: white;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field{
+    width: auto;
+}
+
+.ainsys_settings_wrap #setting_entities_section .entities_field.multiple_filds .fa{
+    font-size: 1.8em;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.multiple_filds_children .fa{
+    font-size: 1.2em;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#setting_entities_section .entities_field.multiple_filds{
+    background: #c2c0c0;
+}
+
+.ainsys_settings_wrap #setting_entities_section .entiti_data.active .entities_field div.entiti_settings_value.constant{
+    display: block;
+}
+
+.ainsys_settings_wrap #setting_entities_section .entities_field .editor_mode.entiti_settings_value{
+    display: none;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.active .entiti_settings_value{
+    display: none;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.active .editor_mode.entiti_settings_value{
+    display: block;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field i.fa.fa-floppy-o{
+    color: #D7D7DB;
+    font-size: 2em;
+    margin: 0 1px 0 2px;
+    display: block;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.loading i.fa{
+    display: none;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field i.fa.active{
+    color: #575757;
+    cursor: pointer;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field.loading .loader_dual_ring{
+    display: inline-block;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field .loader_dual_ring{
+    display: none;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field .loader_dual_ring::after{
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 19px;
+    margin: 8px auto;
+    border-radius: 50%;
+    border: 3px solid #575757;
+    border-color: #575757 transparent #575757 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ainsys_settings_wrap #setting_entities_section .entiti_title{
+    margin-left: 14px;
+}
+.ainsys_settings_wrap #setting_entities_section .entiti_title,
+.ainsys_settings_wrap #setting_entities_section .entities_field_header{
+    width: 10%;
+}
+.ainsys_settings_wrap #setting_entities_section .entities_field{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ainsys_settings_wrap #setting_entities_section .properties_field{
+    display: flex;
+    justify-content: space-between;
+    height: 3.2em;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.ainsys_settings_wrap #setting_entities_section .properties_data #save_entiti_properties{
+    margin-top: 1.8em;
+}
+
+.ainsys_settings_wrap #setting_entities_section .properties_field,
+.ainsys_settings_wrap #setting_entities_section .properties_field_title{
+    flex: 1 7%;
+}
+.ainsys_settings_wrap #setting_entities_section .properties_field.small_property,
+.ainsys_settings_wrap #setting_entities_section .properties_field_title.small_property{
+    flex: 1 2%;
+}
+.ainsys_settings_wrap #setting_entities_section .entiti_block_header{
+    background: grey;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.ainsys_settings_wrap #setting_entities_section .properties_field input{
+    height: 1em;
+}
+
+.ainsys_settings_wrap #setting_entities_section .entities_block .entiti_data{
+    overflow: hidden;
+    height: 38px;
+    margin-bottom: 1em
+}
+.ainsys_settings_wrap #setting_entities_section .entities_block .entiti_data.active{
+    overflow: hidden;
+    height: auto;
+}
+.ainsys_settings_wrap #setting_entities_section .properties_data{
+    text-align: center;
+}
+#setting_entities_section .entities_field:nth-child(2n){
+    background-color: white;
+}
+
+#setting_entities_section .expand_entiti_contaner.button {
+    height: 30px;
+}
+
+#setting_entities_section .expand_entiti_contaner {
+    position: relative;
+    float: right;
+    width: 85px;
+    text-align: center;
+    top: -4px;
+    margin-right: 10px;
+    color: #575757;
+    border-color: #575757;
+}
+.entities_block .active .entiti_settings_value{
+    height:30px;
+}
+
+.entities_block .active .entiti_settings_value.wordpress:after{
+    background:url('/wp-content/plugins/ainsys-connector/css/wp_icon.gif');
+    content: '';
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:30px;
+}
+.entities_block .active .entiti_settings_value.woocommerce:after{
+    background:url('/wp-content/plugins/ainsys-connector/css/woo_icon.gif');
+    content: '';
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:30px;
+}
+.entities_block .active .entiti_settings_value.ACF:after{
+    background:url('/wp-content/plugins/ainsys-connector/css/acf_icon.gif');
+    content: '';
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:30px;
+}
+.entities_block .active .entiti_settings_value.mixed:after{
+    background:url('/wp-content/plugins/ainsys-connector/css/mixed_icon.gif');
+    content: '';
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:30px;
+}
+/*===================*/

@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BABE Custom Statistics\n"
+"POT-Creation-Date: 2021-11-11 13:28+0200\n"
+"PO-Revision-Date: 2021-12-31 10:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_x:1,2c;_n:1,2;esc_html__;esc_html_e;"
+"esc_attr__;_ex:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: css\n"
+"X-Poedit-SearchPathExcluded-1: fonts\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: includes/plugins\n"
+
+#: ainsys_connector.php:47
+msgid "Upgrade your PHP version. Minimum version - 7.2+. Your PHP version "
+msgstr "Обновите свою версию PHP. Минимальная версия - 7.2+. Ваша версия PHP "
+
+#: ainsys_connector.php:48
+msgid ""
+"! If you don't know how to upgrade PHP version, just ask in your hosting "
+"provider! If you can't upgrade - delete this plugin!"
+msgstr ""
+"! Если вы не знаете, как обновить версию PHP, просто спросите у своего "
+"хостинг-провайдера! Если вы не можете обновить - удалите этот плагин!"
+
+#: includes/View.php:12
+msgid "AINSYS connector with WooCommerce"
+msgstr "Коннектор AINSYS с WooCommerce"
+
+#: includes/View.php:14
+msgid "General"
+msgstr "Основные"
+
+#: includes/View.php:15
+msgid "Transfer log"
+msgstr "Журнал переводов"
+
+#: includes/View.php:16
+msgid "Entities export settings"
+msgstr "Параметры экспорта сущностей"
+
+#: includes/View.php:24
+msgid "AINSYS handshake url for the connector. You can find it in your "
+msgstr "URL-адрес рукопожатия AINSYS для соединителя. Вы можете найти его в "
+
+#: includes/View.php:24
+msgid "dashboard"
+msgstr "панель управления"
+
+#: includes/View.php:28
+msgid "Disconect integration"
+msgstr "Разорвать соединение"
+
+#: includes/View.php:33
+msgid "AINSYS workspace"
+msgstr "Рабочее пространство AINSYS"
+
+#: includes/View.php:37
+msgid "Server hook_url"
+msgstr "Сервер hook_url"
+
+#: includes/View.php:41
+msgid "Error report mailbox"
+msgstr "Ошибка с почтовым яшиком"
+
+#: includes/View.php:42
+msgid "Used for error reports"
+msgstr "Используется для отправки отчетов"
+
+#: includes/View.php:45
+msgid "Purge all stored data during uninstall"
+msgstr "Удалить все сохраненные настройки во время деактивации"
+
+#: includes/View.php:53
+msgid "Display debug information"
+msgstr "Отобразить информацию о настройках"
+
+#: includes/View.php:63
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/View.php:65
+msgid "Status"
+msgstr "Статус"
+
+#: includes/View.php:68
+msgid "Conection"
+msgstr "Соединение"
+
+#: includes/View.php:71
+msgid "Working"
+msgstr "Работает"
+
+#: includes/View.php:73
+msgid "No AINSYS integration"
+msgstr "Нет AINSYS интеграции"
+
+#: includes/View.php:77
+msgid "WordPress WooCommerce activated -"
+msgstr "WordPress WooCommerce активирован -"
+
+#: includes/View.php:79
+msgid "Yes"
+msgstr "Да"
+
+#: includes/View.php:81
+msgid "No. You must install "
+msgstr "Нет. Нужно установить "
+
+#: includes/View.php:81
+msgid "plugin"
+msgstr "plugin"
+
+#: includes/View.php:87 includes/View.php:95
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/View.php:89 includes/View.php:97
+msgid "Disabled"
+msgstr "Выключить"
+
+#: includes/View.php:101
+msgid "PHP version 7.2+ -"
+msgstr "PHP версия  7.2+ -"
+
+#: includes/View.php:105
+msgid "Bad PHP version "
+msgstr "Версия  PHP не подходит  "
+
+#: includes/View.php:105
+msgid "Update on your hosting"
+msgstr "Обновите свой хостинг"
+
+#: includes/View.php:109
+msgid "Backup email -"
+msgstr "Резервная электронная почта -"
+
+#: includes/View.php:111
+msgid "Valid"
+msgstr "Действительный"
+
+#: includes/View.php:113
+msgid "Invalid"
+msgstr "Недействительный"
+
+#: includes/View.php:125
+msgid "Start loging"
+msgstr "Начать логирование"
+
+#: includes/View.php:127
+msgid "1 hour"
+msgstr "1 час"
+
+#: includes/View.php:128
+msgid "5 hours"
+msgstr "5 часов"
+
+#: includes/View.php:129
+msgid "12 hours"
+msgstr "12 часов"
+
+#: includes/View.php:130
+msgid "24 hours"
+msgstr "24 часа"
+
+#: includes/View.php:131
+msgid "unlimited"
+msgstr "все время"
+
+#: includes/View.php:133
+msgid "Stop loging"
+msgstr "Остановить ведение журнала"
+
+#: includes/View.php:134
+msgid "Reload"
+msgstr "Обновить"
+
+#: includes/View.php:135
+msgid "Clear log"
+msgstr "Очистить журнал логирования"
+
+#: includes/View.php:146
+msgid "Detailed"
+msgstr "Детальная"
+
+#: includes/View.php:146
+msgid " API integration"
+msgstr " API"
+
+#: includes/View.php:146
+msgid " documentation."
+msgstr " документация"
+
+#: includes/ainsys_html.php:138
+msgid "On"
+msgstr "Выкл"
+
+#: includes/ainsys_html.php:138
+msgid "Off"
+msgstr "Вкл"
+
+#: includes/ainsys_html.php:147 includes/ainsys_html.php:165
+#: includes/ainsys_html.php:223
+msgid "empty"
+msgstr "пусто"
+
+#: includes/ainsys_html.php:208
+msgid "No transactions to display"
+msgstr "Нет транзакций для отображения"
+
+#: includes/ainsys_settings.php:271
+msgid "AINSYS connector integration"
+msgstr "AINSYS модуль интеграции"
+
+#: includes/ainsys_settings.php:272
+msgid "AINSYS connector"
+msgstr "AINSYS модуль"
+
+#: includes/ainsys_settings.php:350
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/ainsys_settings.php:361 includes/ainsys_settings.php:460
+#: includes/ainsys_settings.php:656
+msgid "{ID}"
+msgstr "{ID}"
+
+#: includes/ainsys_settings.php:365
+#, fuzzy
+#| msgid "Transfer log"
+msgid "User login"
+msgstr "Журнал переводов"
+
+#: includes/ainsys_settings.php:369
+msgid "Readable name"
+msgstr ""
+
+#: includes/ainsys_settings.php:373
+msgid "User mail"
+msgstr ""
+
+#: includes/ainsys_settings.php:377
+msgid "Main email"
+msgstr ""
+
+#: includes/ainsys_settings.php:456
+#, fuzzy
+#| msgid "Prod Title"
+msgid "Title"
+msgstr "Название прод"
+
+#: includes/ainsys_settings.php:660
+msgid "Currency"
+msgstr "Валюта "
+
+#: includes/ainsys_settings.php:668
+msgid "Payment"
+msgstr ""
+
+#: includes/ainsys_settings.php:737
+#, fuzzy
+#| msgid "Entitis / fields"
+msgid "User entity / fields"
+msgstr "Сущности / поля"
+
+#: includes/ainsys_settings.php:740
+#, fuzzy
+#| msgid "Order fields"
+msgid "Order entity / fields"
+msgstr "Поля заказов"
+
+#: includes/ainsys_settings.php:741
+#, fuzzy
+#| msgid "Product fields"
+msgid "Product entity / fields"
+msgstr "Поля продуктов"
+
+#: includes/ainsys_settings.php:755
+msgid "Id"
+msgstr "Id"
+
+#: includes/ainsys_settings.php:760
+msgid "API"
+msgstr "API"
+
+#: includes/ainsys_settings.php:769
+msgid "Read"
+msgstr "Чтение"
+
+#: includes/ainsys_settings.php:774
+msgid "Write"
+msgstr "Запись"
+
+#: includes/ainsys_settings.php:779
+msgid "Required"
+msgstr "Обязательное"
+
+#: includes/ainsys_settings.php:784
+msgid "Unique"
+msgstr "Уникальное"
+
+#: includes/ainsys_settings.php:789
+msgid "Data type"
+msgstr "Тип данных"
+
+#: includes/ainsys_settings.php:799
+msgid "Description"
+msgstr "Описание"
+
+#: includes/ainsys_settings.php:812
+msgid "Sample"
+msgstr "Пример"
+
+#~ msgid "Created at "
+#~ msgstr "Создано в "
